@@ -45,3 +45,10 @@ class _MyLargeTitleState extends State<MyLargeTitle> {
     1. initState() -> 최초에 동작
     2. build() -> widget 을 rendering 시 동작
     3. dispose() -> widget 을 disrendering 시 동작
+
+
+# Flexible Widget
+* UI 비율에 맞게 수정해주는 Widget
+
+# Expanded Widget
+* 해당 위젯을 범위를 확장해주는 Widget
