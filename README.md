@@ -68,3 +68,25 @@ class _MyLargeTitleState extends State<MyLargeTitle> {
 # Timer Library
 * 타이머 관련 기능 사용 라이브러리
 * Timer.periodic(duration, function) : 일정 시간마다 동작하는 타이머
+
+# Column ListView 를 같이 쓰는 경우 . Column and ListView has unlimited height
+
+# Navigator.push
+```
+Navigator.push(
+    context,
+    MaterialPageRoute(
+    builder: (context) => DetailScreen(
+        title: title,
+        thumb: thumb,
+        id: id,
+    ),
+    fullscreenDialog: true,
+    ),
+);
+```
+
+# MaterialPageRoute
+
+
+# Hero
