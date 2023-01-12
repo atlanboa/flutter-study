@@ -51,4 +51,20 @@ class _MyLargeTitleState extends State<MyLargeTitle> {
 * UI 비율에 맞게 수정해주는 Widget
 
 # Expanded Widget
-* 해당 위젯을 범위를 확장해주는 Widget
+* 해당 위젯을 범위를 확장해주는 Widget 
+
+# Center Widget
+* 중앙에 위치하게 되는 위젯
+
+# Column 과 Row
+* Column 은 열, Row 는 행
+* Column
+    * MainAxisAlignment : 세로
+    * CrossAxisAlignment : 가로
+* Row 
+    * MainAxisAlignment : 가로
+    * CrossAxisAlignment : 세로
+
+# Timer Library
+* 타이머 관련 기능 사용 라이브러리
+* Timer.periodic(duration, function) : 일정 시간마다 동작하는 타이머
