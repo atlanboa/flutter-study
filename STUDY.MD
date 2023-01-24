@@ -279,3 +279,72 @@ FutureBuilder(
     }
   }
 ```
+
+# Provider
+
+# MultiProvider
+
+# ChangeNotifierProvider
+
+# AspectRatio
+
+# MediaQuery
+
+# FractionalOffset
+
+# Navigator push pop
+pop 을 사용하는 경우는 이전에 생성된 stack 을 제거해줌.
+사용 예로, 다이얼로그 -> 사진 선택 -> 화면
+이 상황에서 다이얼로그가 사라지길 원함 그런 경우 pop 이후 갤러리로 이동함.
+
+# InkWell
+
+# mainAxisSize crossAxisSize
+
+# RichText
+
+# TextSpan
+
+# intl package
+
+# SingleTickerProviderStateMixin
+
+# AnimationController
+controller.forwad
+controller.reverse
+
+# didUpdateWidget
+
+# Opacity, AnimatedOpacity
+
+# Stack
+
+# SafeArea
+
+# flutter_staggered_grid_view
+instagram search page 처럼 다양한 size blocks 페이지를 구성
+
+# TextFormField
+```
+TextFormField(
+          controller: _searchController,
+          onFieldSubmitted: (value) {
+            setState(() {
+              isShowUser = true;
+            });
+          },
+          decoration: InputDecoration(
+            isDense: true,
+            hintText: "Search",
+            contentPadding: const EdgeInsets.all(10),
+            border: OutlineInputBorder(
+              borderRadius: BorderRadius.circular(13),
+              borderSide: const BorderSide(width: 0, style: BorderStyle.none),
+            ),
+            filled: true,
+            fillColor: Colors.grey.shade900,
+          ),
+        ),
+```
+
+# StaggerGridView
