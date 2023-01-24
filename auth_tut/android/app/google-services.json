@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "799210262434",
+    "project_id": "authtutorial-700ff",
+    "storage_bucket": "authtutorial-700ff.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:799210262434:android:87cee24a434912b62fecfb",
+        "android_client_info": {
+          "package_name": "com.example.auth_tut"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "799210262434-h1lnjrf5cht7c6n5tv61u7jgabmls5pj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyATS9V89oUMqo_kvkCjMxvRAdcTBcJS2Vc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "799210262434-h1lnjrf5cht7c6n5tv61u7jgabmls5pj.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "799210262434-aplhccv37ckd9nci288k0gsseunpirnf.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.authTut"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
